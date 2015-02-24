@@ -1,5 +1,4 @@
 studentRoster.controller("StudentsCtrl", function StudentsCtrl($scope, StudentsFactory) {
-  $scope.students = StudentFactory.students;
+  $scope.students = StudentsFactory.students;
   $scope.StudentsFactory = StudentsFactory;
-  };
 });
